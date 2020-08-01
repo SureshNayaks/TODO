@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootanchorpane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AdditemController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #d32125;">
+         <children>
+            <Label alignment="CENTER" layoutX="310.0" layoutY="35.0" prefHeight="42.0" prefWidth="80.0" text="TODO" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="noitemlabel" alignment="CENTER" layoutX="174.0" layoutY="208.0" prefHeight="42.0" prefWidth="353.0" text="Hey! No items added yet">
+         <font>
+            <Font name="Marlett" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="319.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Additembtn" fitHeight="53.0" fitWidth="53.0" layoutX="319.0" layoutY="269.0">
+         <image>
+            <Image url="@../assets/icons8-joyent-48.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

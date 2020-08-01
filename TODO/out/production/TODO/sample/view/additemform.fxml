@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemFormController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #3d2f2f;">
+         <children>
+            <Label alignment="CENTER" layoutX="303.0" layoutY="50.0" prefHeight="36.0" prefWidth="94.0" text="TODO" textFill="WHITE">
+               <font>
+                  <Font name="Marlett" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="additemformtask" layoutX="130.0" layoutY="189.0" prefHeight="48.0" prefWidth="440.0" promptText="Task" />
+      <TextField fx:id="additemformdescription" layoutX="130.0" layoutY="262.0" prefHeight="48.0" prefWidth="440.0" promptText="Description" />
+      <Button fx:id="additemFormaddtaskbtn" alignment="CENTER" layoutX="281.0" layoutY="340.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="139.0" style="-fx-background-color: #d32f2f;" text="Add Task" textFill="WHITE">
+         <font>
+            <Font name="Marlett" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
